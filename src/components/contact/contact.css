@@ -1,0 +1,45 @@
+
+
+.contact{
+    align-items: center;
+    text-align: center;
+    padding: 4% 0 ;
+    /* padding-top: 8%; */
+    padding-top: 15vh;
+    background-image: url('C:\Parth\Projects\react\my-app\src\components\contact\b11.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+     color: whitesmoke;
+}
+
+
+
+.contact form input{
+    color: black;
+    align-items: center;
+  border-color: black;
+}
+
+.contact form textarea{
+  
+  border-color: black;
+}
+
+
+.contact h2{
+    margin-bottom: 5%;
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.cut{
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    width: 7em;
+    height: 3em;
+}

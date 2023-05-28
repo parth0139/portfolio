@@ -1,0 +1,71 @@
+
+
+.logo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 5%;
+}
+
+.skills{
+    background-color: black;
+    color: azure;
+    padding: 5% 0 ;
+    height: 100%;
+   border-radius: 10% ;
+   /* padding-top: 8%; */
+   padding-top: 15vh;
+}
+
+.skill-slider{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.item h5{
+    /* text-align: center; */
+    animation: logo 3s linear infinite ; 
+}
+
+@keyframes logo{
+
+    0%{
+        transform : translateY(1rem);
+    }
+    
+    50%{
+        transform : translateY(0rem);
+    }
+    
+    100%{
+        transform : translateY(1rem);
+    }
+     
+    
+    } 
+
+
+    .c{
+        margin-top: 5% ;
+        height:100% ;
+    }
+
+.card{
+    border-style: hidden ;
+}
+
+.card-body{
+    background-color: rgb(47, 53, 57) ;
+   
+  
+}
+
+.card-body p{
+    
+    color: rgb(126, 116, 116);
+}
+
+.skill-bx {
+    text-align: center;
+}

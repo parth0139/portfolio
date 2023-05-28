@@ -1,0 +1,83 @@
+
+.my-nav{
+    margin: 4% 0;
+
+}
+
+.n-wrapper{
+    
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.n-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.n-name{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.n-list{
+    flex: 1;
+}
+
+.n-list>ul{
+    gap: 1.8rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.n-list>ul>a{
+    padding: 0 2% ;
+    text-decoration: none;
+}
+
+/* .n-list>ul>li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(37, 37, 207);
+} */
+
+.n-list>ul>a li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+    font-size: 1.1em;
+}
+
+.buttons:hover{
+    color: black;
+    background: rgb(169, 156, 199);
+    transition: 0.3s ease-in-out;
+    
+}
+
+.profile{
+    border-radius: 50%;
+    height: 4em;
+}
+
+.n-active{
+    text-decoration: underline  ;
+    /* color: rgb(20, 117, 181) ; */
+    color: grey;
+    font-size: 1.1em;
+}
